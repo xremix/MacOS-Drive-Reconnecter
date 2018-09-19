@@ -12,6 +12,7 @@
 		E28A7A6021526D7400CF1900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28A7A5F21526D7400CF1900 /* Assets.xcassets */; };
 		E28A7A6321526D7400CF1900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28A7A6121526D7400CF1900 /* Main.storyboard */; };
 		E28A7A6F21526D7400CF1900 /* MacOS_Drive_ReconnecterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28A7A6E21526D7400CF1900 /* MacOS_Drive_ReconnecterTests.swift */; };
+		E2FAF09721526DC100FBC78E /* ShellBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FAF09621526DC100FBC78E /* ShellBridge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		E28A7A6A21526D7400CF1900 /* MacOS-Drive-ReconnecterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MacOS-Drive-ReconnecterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28A7A6E21526D7400CF1900 /* MacOS_Drive_ReconnecterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOS_Drive_ReconnecterTests.swift; sourceTree = "<group>"; };
 		E28A7A7021526D7400CF1900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2FAF09621526DC100FBC78E /* ShellBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellBridge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		E28A7A5A21526D7300CF1900 /* MacOS-Drive-Reconnecter */ = {
 			isa = PBXGroup;
 			children = (
+				E2FAF09821526DC600FBC78E /* Services */,
 				E28A7A5B21526D7300CF1900 /* AppDelegate.swift */,
 				E28A7A5D21526D7300CF1900 /* ViewController.swift */,
 				E28A7A5F21526D7400CF1900 /* Assets.xcassets */,
@@ -93,6 +96,15 @@
 				E28A7A7021526D7400CF1900 /* Info.plist */,
 			);
 			path = "MacOS-Drive-ReconnecterTests";
+			sourceTree = "<group>";
+		};
+		E2FAF09821526DC600FBC78E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E2FAF09621526DC100FBC78E /* ShellBridge.swift */,
+			);
+			name = Services;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2FAF09721526DC100FBC78E /* ShellBridge.swift in Sources */,
 				E28A7A5E21526D7300CF1900 /* ViewController.swift in Sources */,
 				E28A7A5C21526D7300CF1900 /* AppDelegate.swift in Sources */,
 			);

@@ -9,10 +9,12 @@
 import Cocoa
 
 class ViewController: NSViewController {
-
+    var shell = ShellBridge()
     override func viewDidLoad() {
         super.viewDidLoad()
+//        let output = shell.runCommand(cmd: "/usr/bin/git", args: "status").output
 
+        let output2 = shell.runCommand(cmd: "/usr/sbin/diskutil", args: "list")
         // Do any additional setup after loading the view.
     }
 
